@@ -16,7 +16,7 @@ spec:
    spec:
      containers:
      - name: busybox-daemon
-       image: ikulyk404/busyboxplus:curl
+       image: busyboxplus:curl
        command:
          - "/bin/sh"
          - "-c"
@@ -30,4 +30,4 @@ spec:
            memory: "200Mi"
        ports:
        - containerPort: 80
-         hostPort: 30010
+
